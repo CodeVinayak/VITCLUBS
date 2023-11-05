@@ -91,11 +91,12 @@ textarea {
     2. FORM
 --------------*/
 .form {
-  width: 100%;
+  width: 0%;
 
   & + {
     .button {
       margin-top: 40px;
+      // margin-right: 800px;
     }
   }
 }
