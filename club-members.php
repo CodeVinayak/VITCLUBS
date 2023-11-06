@@ -62,13 +62,13 @@ if (!isset($_SESSION["name"])) {
       </div>
     </a>
     <ul class="menu small">
-      <li class="menu-item">
-        <a class="menu-item-link text-tooltip-tfr" href="clubs.php" data-title="Clubs">
+      <!-- <li class="menu-item">
+        <a class="menu-item-link text-tooltip-tfr" href="#" data-title="Clubs">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
         </a>
-      </li>
+      </li> -->
       <li class="menu-item">
         <a class="menu-item-link text-tooltip-tfr" href="members.php" data-title="Members">
           <svg class="menu-item-link-icon icon-members">
@@ -117,7 +117,7 @@ if (!isset($_SESSION["name"])) {
     </div>
     <ul class="menu">
       <li class="menu-item">
-        <a class="menu-item-link" href="clubs.php">
+        <a class="menu-item-link" href="#">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
@@ -179,7 +179,7 @@ if (!isset($_SESSION["name"])) {
     <p class="navigation-widget-section-title">Sections</p>
     <ul class="menu">
       <li class="menu-item">
-        <a class="menu-item-link" href="clubs.php">
+        <a class="menu-item-link" href="#">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
@@ -739,8 +739,8 @@ if (!isset($_SESSION["name"])) {
                   <p class="user-avatar-badge-text">12</p>
                 </div>
               </a>
-              <p class="user-short-description-title"><a href="#">NekoBebop</a></p>
-              <p class="user-short-description-text"><a href="#">www.store.com/nekoprints</a></p>
+              <p class="user-short-description-title"><a href="#">Anju Tiwari</a></p>
+              <!-- <p class="user-short-description-text"><a href="#">www.store.com/nekoprints</a></p> -->
             </div>
             <div class="badge-list small">
               <div class="badge-item">
@@ -844,7 +844,7 @@ if (!isset($_SESSION["name"])) {
                 </div>
               </a>
               <p class="user-short-description-title"><a href="#">Vinayak Singh</a></p>
-              <p class="user-short-description-text"><a href="#">www.twitch.tv/d-destroyer</a></p>
+              <p class="user-short-description-text"><a href="#"></a></p>
             </div>
             <div class="badge-list small">
               <div class="badge-item">
@@ -977,7 +977,7 @@ if (!isset($_SESSION["name"])) {
                 </div>
               </a>
               <p class="user-short-description-title"><a href="#">Pankaj </a></p>
-              <p class="user-short-description-text">aka Phantom Streamer</p>
+              <p class="user-short-description-text"></p>
             </div>
             <div class="badge-list small">
               <div class="badge-item">
@@ -1076,7 +1076,7 @@ if (!isset($_SESSION["name"])) {
                 </div>
               </a>
               <p class="user-short-description-title"><a href="#">Stuti Gupta</a></p>
-              <p class="user-short-description-text"><a href="#">www.diamondart.com</a></p>
+              <p class="user-short-description-text"><a href="#"></a></p>
             </div>
             <div class="badge-list small">
               <div class="badge-item">
@@ -1174,8 +1174,8 @@ if (!isset($_SESSION["name"])) {
                   <p class="user-avatar-badge-text">6</p>
                 </div>
               </a>
-              <p class="user-short-description-title"><a href="#">Bearded Wonder</a></p>
-              <p class="user-short-description-text">aka Jack Parker</p>
+              <p class="user-short-description-title"><a href="#">Piyush Bansal</a></p>
+              <p class="user-short-description-text"></p>
             </div>
             <div class="badge-list small">
               <div class="badge-item">
@@ -1279,7 +1279,7 @@ if (!isset($_SESSION["name"])) {
                 </div>
               </a>
               <p class="user-short-description-title"><a href="#">Shivani Jain</a></p>
-              <p class="user-short-description-text"><a href="#">www.ggprints.com</a></p>
+              <p class="user-short-description-text"><a href="#"></a></p>
             </div>
             <div class="badge-list small">
               <div class="badge-item">
@@ -1377,8 +1377,8 @@ if (!isset($_SESSION["name"])) {
                   <p class="user-avatar-badge-text">4</p>
                 </div>
               </a>
-              <p class="user-short-description-title"><a href="#">Damian Greyson</a></p>
-              <p class="user-short-description-text">aka Samurai Stream</p>
+              <p class="user-short-description-title"><a href="#">Sridhar Vembu</a></p>
+              <p class="user-short-description-text"></p>
             </div>
             <div class="badge-list small">
               <div class="badge-item">
@@ -1476,8 +1476,8 @@ if (!isset($_SESSION["name"])) {
                   <p class="user-avatar-badge-text">19</p>
                 </div>
               </a>
-              <p class="user-short-description-title"><a href="#">Rosie Sakura</a></p>
-              <p class="user-short-description-text"><a href="#">www.rosiesk.com</a></p>
+              <p class="user-short-description-title"><a href="#">Shivani Jain</a></p>
+              <p class="user-short-description-text"><a href="#"></a></p>
             </div>
             <div class="badge-list small">
               <div class="badge-item">
@@ -1610,7 +1610,7 @@ if (!isset($_SESSION["name"])) {
                 </div>
               </a>
               <p class="user-short-description-title"><a href="#">Sarah Rodgers</a></p>
-              <p class="user-short-description-text">aka Raven999</p>
+              <p class="user-short-description-text"></p>
             </div>
             <div class="badge-list small">
               <div class="badge-item">

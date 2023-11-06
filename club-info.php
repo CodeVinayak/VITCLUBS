@@ -61,13 +61,13 @@ if (!isset($_SESSION["name"])) {
       </div>
     </a>
     <ul class="menu small">
-      <li class="menu-item">
-        <a class="menu-item-link text-tooltip-tfr" href="clubs.php" data-title="Clubs">
+      <!-- <li class="menu-item">
+        <a class="menu-item-link text-tooltip-tfr" href="#" data-title="Clubs">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
         </a>
-      </li>
+      </li> -->
       <li class="menu-item">
         <a class="menu-item-link text-tooltip-tfr" href="members.php" data-title="Members">
           <svg class="menu-item-link-icon icon-members">
@@ -116,7 +116,7 @@ if (!isset($_SESSION["name"])) {
     </div>
     <ul class="menu">
       <li class="menu-item">
-        <a class="menu-item-link" href="clubs.php">
+        <a class="menu-item-link" href="#">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
@@ -193,7 +193,7 @@ if (!isset($_SESSION["name"])) {
         </a>
       </li>
       <li class="menu-item">
-        <a class="menu-item-link" href="clubs.php">
+        <a class="menu-item-link" href="#">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>

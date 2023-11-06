@@ -61,13 +61,13 @@ if (!isset($_SESSION["name"])) {
       </div>
     </a>
     <ul class="menu small">
-      <li class="menu-item">
-        <a class="menu-item-link text-tooltip-tfr" href="clubs.php" data-title="Clubs">
+      <!-- <li class="menu-item">
+        <a class="menu-item-link text-tooltip-tfr" href="#" data-title="Clubs">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
         </a>
-      </li>
+      </li> -->
       <li class="menu-item">
         <a class="menu-item-link text-tooltip-tfr" href="members.php" data-title="Members">
           <svg class="menu-item-link-icon icon-members">
@@ -116,7 +116,7 @@ if (!isset($_SESSION["name"])) {
     </div>
     <ul class="menu">
       <li class="menu-item">
-        <a class="menu-item-link" href="clubs.php">
+        <a class="menu-item-link" href="#">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
@@ -177,7 +177,7 @@ if (!isset($_SESSION["name"])) {
     <p class="navigation-widget-section-title">Sections</p>
     <ul class="menu">
       <li class="menu-item">
-        <a class="menu-item-link" href="clubs.php">
+        <a class="menu-item-link" href="#">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
@@ -534,7 +534,8 @@ if (!isset($_SESSION["name"])) {
               <div class="hexagon-image-100-110" data-src="img/avatar/24.jpg"></div>
             </div>
           </a>
-          <p class="user-short-description-title"><a href="club-timeline.php"></a></p>
+          <p class="user-short-description-title"><a href="club-timeline.php">Virtual Reality Club</a></p>
+          
           <p class="user-short-description-text">VIBRANT VIRTUAL REALITY EXPERIENCE</p>
         </div>
         <div class="user-stats">
@@ -712,6 +713,7 @@ if (!isset($_SESSION["name"])) {
           </div>
           <p class="widget-box-title">Group Info</p>
           <div class="widget-box-content">
+          <p class="user-short-description-title"><a href="club-timeline.php">Virtual Reality Club</a></p>
             <p class="paragraph">Dive into the immersive world of virtual reality with us! Join a vibrant community of VR enthusiasts and explore limitless possibilities. Get ready to redefine reality. 🚀</p>
             <div class="information-line-list">
               <div class="information-line">

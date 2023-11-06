@@ -64,13 +64,13 @@ $m_id = $_SESSION['m_id'];
       </div>
     </a>
     <ul class="menu small">
-      <li class="menu-item">
-        <a class="menu-item-link text-tooltip-tfr" href="clubs.php" data-title="Clubs">
+      <!-- <li class="menu-item">
+        <a class="menu-item-link text-tooltip-tfr" href="#" data-title="Clubs">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
-        </a>
-      </li>
+        </a> -->
+      <!-- </li> -->
       <li class="menu-item active">
         <a class="menu-item-link text-tooltip-tfr" href="members.php" data-title="Members">
           <svg class="menu-item-link-icon icon-members">
@@ -120,7 +120,7 @@ $m_id = $_SESSION['m_id'];
     </div>
     <ul class="menu">
       <li class="menu-item">
-        <a class="menu-item-link" href="clubs.php">
+        <a class="menu-item-link" href="#">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
@@ -182,7 +182,7 @@ $m_id = $_SESSION['m_id'];
     <p class="navigation-widget-section-title">Sections</p>
     <ul class="menu">
       <li class="menu-item">
-        <a class="menu-item-link" href="clubs.php">
+        <a class="menu-item-link" href="#">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
@@ -713,8 +713,8 @@ $m_id = $_SESSION['m_id'];
                 <p class="user-avatar-badge-text">12</p>
               </div>
             </a>
-            <p class="user-short-description-title"><a href="#">NekoBebop</a></p>
-            <p class="user-short-description-text"><a href="#">www.store.com/nekoprints</a></p>
+            <p class="user-short-description-title"><a href="#">Anju Tiwari</a></p>
+            
           </div>
           <div class="badge-list small">
             <div class="badge-item">
@@ -752,8 +752,7 @@ $m_id = $_SESSION['m_id'];
               </div>
             </div>
             <div class="user-preview-stats-slide">
-              <p class="user-preview-text">Hello! I'm James Hart, but I go by the name of Vinayak Singh on my stream
-                channel. Come to check out the latest gaming news!</p>
+              <p class="user-preview-text">Hello! I'm Anju Tiwari</p>
             </div>
           </div>
           <div id="user-preview-stats-roster-01" class="user-preview-stats-roster slider-roster">
@@ -818,7 +817,7 @@ $m_id = $_SESSION['m_id'];
               </div>
             </a>
             <p class="user-short-description-title"><a href="#">Vinayak Singh</a></p>
-            <p class="user-short-description-text"><a href="#">www.twitch.tv/d-destroyer</a></p>
+            
           </div>
           <div class="badge-list small">
             <div class="badge-item">
@@ -856,8 +855,7 @@ $m_id = $_SESSION['m_id'];
               </div>
             </div>
             <div class="user-preview-stats-slide">
-              <p class="user-preview-text">Hello! I'm James Hart, but I go by the name of Vinayak Singh on my stream
-                channel. Come to check out the latest gaming news!</p>
+              <p class="user-preview-text">Hello! I'm Vinayak Singh</p>
             </div>
           </div>
           <div id="user-preview-stats-roster-02" class="user-preview-stats-roster slider-roster">
@@ -951,7 +949,7 @@ $m_id = $_SESSION['m_id'];
               </div>
             </a>
             <p class="user-short-description-title"><a href="#">Pankaj </a></p>
-            <p class="user-short-description-text">aka Phantom Streamer</p>
+            <p class="user-short-description-text"></p>
           </div>
           <div class="badge-list small">
             <div class="badge-item">
@@ -989,8 +987,7 @@ $m_id = $_SESSION['m_id'];
               </div>
             </div>
             <div class="user-preview-stats-slide">
-              <p class="user-preview-text">Hello! I'm James Hart, but I go by the name of Vinayak Singh on my stream
-                channel. Come to check out the latest gaming news!</p>
+              <p class="user-preview-text">Hello! I'm Pankaj</p>
             </div>
           </div>
           <div id="user-preview-stats-roster-03" class="user-preview-stats-roster slider-roster">
@@ -1050,7 +1047,7 @@ $m_id = $_SESSION['m_id'];
               </div>
             </a>
             <p class="user-short-description-title"><a href="#">Stuti Gupta</a></p>
-            <p class="user-short-description-text"><a href="#">www.diamondart.com</a></p>
+
           </div>
           <div class="badge-list small">
             <div class="badge-item">
@@ -1088,8 +1085,7 @@ $m_id = $_SESSION['m_id'];
               </div>
             </div>
             <div class="user-preview-stats-slide">
-              <p class="user-preview-text">Hello! I'm James Hart, but I go by the name of Vinayak Singh on my stream
-                channel. Come to check out the latest gaming news!</p>
+              <p class="user-preview-text">Hello! I'm Stuti Gupta</p>
             </div>
           </div>
           <div id="user-preview-stats-roster-04" class="user-preview-stats-roster slider-roster">
@@ -1148,8 +1144,8 @@ $m_id = $_SESSION['m_id'];
                 <p class="user-avatar-badge-text">6</p>
               </div>
             </a>
-            <p class="user-short-description-title"><a href="#">Bearded Wonder</a></p>
-            <p class="user-short-description-text">aka Jack Parker</p>
+            <p class="user-short-description-title"><a href="#">Piyush Bansal</a></p>
+            <p class="user-short-description-text"></p>
           </div>
           <div class="badge-list small">
             <div class="badge-item">
@@ -1187,8 +1183,7 @@ $m_id = $_SESSION['m_id'];
               </div>
             </div>
             <div class="user-preview-stats-slide">
-              <p class="user-preview-text">Hello! I'm James Hart, but I go by the name of Vinayak Singh on my stream
-                channel. Come to check out the latest gaming news!</p>
+              <p class="user-preview-text">Hello! I'm Piyush Bansal</p>
             </div>
           </div>
           <div id="user-preview-stats-roster-05" class="user-preview-stats-roster slider-roster">
@@ -1252,8 +1247,8 @@ $m_id = $_SESSION['m_id'];
                 <p class="user-avatar-badge-text">5</p>
               </div>
             </a>
-            <p class="user-short-description-title"><a href="#">Shivani Jain</a></p>
-            <p class="user-short-description-text"><a href="#">www.ggprints.com</a></p>
+            <p class="user-short-description-title"><a href="#">Bhavish Aggarwal</a></p>
+
           </div>
           <div class="badge-list small">
             <div class="badge-item">
@@ -1291,8 +1286,7 @@ $m_id = $_SESSION['m_id'];
               </div>
             </div>
             <div class="user-preview-stats-slide">
-              <p class="user-preview-text">Hello! I'm James Hart, but I go by the name of Vinayak Singh on my stream
-                channel. Come to check out the latest gaming news!</p>
+              <p class="user-preview-text">Hello! I'm Bhavish Aggarwal</p>
             </div>
           </div>
           <div id="user-preview-stats-roster-06" class="user-preview-stats-roster slider-roster">
@@ -1351,8 +1345,8 @@ $m_id = $_SESSION['m_id'];
                 <p class="user-avatar-badge-text">4</p>
               </div>
             </a>
-            <p class="user-short-description-title"><a href="#">Damian Greyson</a></p>
-            <p class="user-short-description-text">aka Samurai Stream</p>
+            <p class="user-short-description-title"><a href="#">Sridhar Vembu</a></p>
+            <p class="user-short-description-text"></p>
           </div>
           <div class="badge-list small">
             <div class="badge-item">
@@ -1390,8 +1384,7 @@ $m_id = $_SESSION['m_id'];
               </div>
             </div>
             <div class="user-preview-stats-slide">
-              <p class="user-preview-text">Hello! I'm James Hart, but I go by the name of Vinayak Singh on my stream
-                channel. Come to check out the latest gaming news!</p>
+              <p class="user-preview-text">Hello! I'm Sridhar Vembu</p>
             </div>
           </div>
           <div id="user-preview-stats-roster-07" class="user-preview-stats-roster slider-roster">
@@ -1450,8 +1443,8 @@ $m_id = $_SESSION['m_id'];
                 <p class="user-avatar-badge-text">19</p>
               </div>
             </a>
-            <p class="user-short-description-title"><a href="#">Rosie Sakura</a></p>
-            <p class="user-short-description-text"><a href="#">www.rosiesk.com</a></p>
+            <p class="user-short-description-title"><a href="#">Shivani Jain</a></p>
+   
           </div>
           <div class="badge-list small">
             <div class="badge-item">
@@ -1489,8 +1482,7 @@ $m_id = $_SESSION['m_id'];
               </div>
             </div>
             <div class="user-preview-stats-slide">
-              <p class="user-preview-text">Hello! I'm James Hart, but I go by the name of Vinayak Singh on my stream
-                channel. Come to check out the latest gaming news!</p>
+              <p class="user-preview-text">Hello! I'm Shivani Jain</p>
             </div>
           </div>
           <div id="user-preview-stats-roster-08" class="user-preview-stats-roster slider-roster">
@@ -1583,8 +1575,8 @@ $m_id = $_SESSION['m_id'];
                 <p class="user-avatar-badge-text">5</p>
               </div>
             </a>
-            <p class="user-short-description-title"><a href="#">Sarah Rodgers</a></p>
-            <p class="user-short-description-text">aka Raven999</p>
+            <p class="user-short-description-title"><a href="#">Kanika Bisht</a></p>
+
           </div>
           <div class="badge-list small">
             <div class="badge-item">
@@ -1622,8 +1614,7 @@ $m_id = $_SESSION['m_id'];
               </div>
             </div>
             <div class="user-preview-stats-slide">
-              <p class="user-preview-text">Hello! I'm James Hart, but I go by the name of Vinayak Singh on my stream
-                channel. Come to check out the latest gaming news!</p>
+              <p class="user-preview-text">Hello! I'm Kanika Bisht</p>
             </div>
           </div>
           <div id="user-preview-stats-roster-09" class="user-preview-stats-roster slider-roster">

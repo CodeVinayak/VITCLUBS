@@ -63,12 +63,12 @@ $m_id = $_SESSION['m_id'];
       </div>
     </a>
     <ul class="menu small">
-      <li class="menu-item">
-        <a class="menu-item-link text-tooltip-tfr" href="clubs.php" data-title="Clubs">
+      <!-- <li class="menu-item">
+        <a class="menu-item-link text-tooltip-tfr" href="#" data-title="Clubs">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
-        </a>
+        </a> -->
       </li>
       <li class="menu-item">
         <a class="menu-item-link text-tooltip-tfr" href="members.php" data-title="Members">
@@ -119,7 +119,7 @@ $m_id = $_SESSION['m_id'];
     </div>
     <ul class="menu">
       <li class="menu-item">
-        <a class="menu-item-link" href="clubs.php">
+        <a class="menu-item-link" href="#">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
@@ -196,7 +196,7 @@ $m_id = $_SESSION['m_id'];
         </a>
       </li>
       <li class="menu-item">
-        <a class="menu-item-link" href="clubs.php">
+        <a class="menu-item-link" href="#">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>

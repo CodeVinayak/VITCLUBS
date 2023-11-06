@@ -1,4 +1,9 @@
 <?php
+    // $host="localhost";
+    // $user="root";
+    // $password="";
+    // $dbname="vclub";
+    
     $host="localhost";
     $user="root";
     $password="";

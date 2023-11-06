@@ -1,6 +1,6 @@
 <?php
 include("php/jsfun.php");
-session_start();  
+session_start();
 if (!isset($_SESSION["name"])) {
   _redirect("../");
 }
@@ -61,13 +61,13 @@ if (!isset($_SESSION["name"])) {
       </div>
     </a>
     <ul class="menu small">
-      <li class="menu-item">
-        <a class="menu-item-link text-tooltip-tfr" href="clubs.php" data-title="Clubs">
+      <!-- <li class="menu-item">
+        <a class="menu-item-link text-tooltip-tfr" href="#" data-title="Clubs">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
         </a>
-      </li>
+      </li> -->
       <li class="menu-item">
         <a class="menu-item-link text-tooltip-tfr" href="members.php" data-title="Members">
           <svg class="menu-item-link-icon icon-members">
@@ -116,7 +116,7 @@ if (!isset($_SESSION["name"])) {
     </div>
     <ul class="menu">
       <li class="menu-item">
-        <a class="menu-item-link" href="clubs.php">
+        <a class="menu-item-link" href="#">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
@@ -177,7 +177,7 @@ if (!isset($_SESSION["name"])) {
     <p class="navigation-widget-section-title">Sections</p>
     <ul class="menu">
       <li class="menu-item">
-        <a class="menu-item-link" href="clubs.php">
+        <a class="menu-item-link" href="#">
           <svg class="menu-item-link-icon icon-group">
             <use xlink:href="#svg-group"></use>
           </svg>
@@ -728,7 +728,7 @@ if (!isset($_SESSION["name"])) {
               </div>
               <div class="information-line">
                 <p class="information-line-title">Web</p>
-                <p class="information-line-text"><a href="#">https://vr-club-vitc.netlify.app/</a></p>
+                <p class="information-line-text"><a href="#">www.cosplayworld.com</a></p>
               </div>
             </div>
           </div>
@@ -1111,7 +1111,7 @@ if (!isset($_SESSION["name"])) {
                 <p class="user-status-title medium"><a class="bold" href="#">Kanika Bisht</a></p>
                 <p class="user-status-text small">2 weeks ago</p>
               </div>
-              <p class="widget-box-status-text">Hi! And welcome to the group! for those who just join us, we invite you to our Discord official channel, where we talk about cosplays, conventions, DIY, costume tips and more!</p>
+              <p class="widget-box-status-text">Hi! And welcome to VR CLUB everyone</p>
               <a class="video-status" href="https://discordapp.com/" target="_blank">
                 <img class="video-status-image" src="img/cover/52.jpg" alt="cover-52">
                 <div class="video-status-info">
@@ -1313,7 +1313,7 @@ if (!isset($_SESSION["name"])) {
                 <p class="user-status-title medium"><a class="bold" href="#">Marina Valentine</a> uploaded <span class="bold">23 new photos</span></p>
                 <p class="user-status-text small">17 minutes ago</p>
               </div>
-              <p class="widget-box-status-text">Hey! I've compiled a list of the best cosplays out there for inspiration :D</p>
+              <p class="widget-box-status-text">Hey! I've compiled a list of our official team members:D</p>
               <div class="picture-collage">
                 <div class="picture-collage-row medium">
                   <div class="picture-collage-item popup-picture-trigger">
@@ -1412,7 +1412,7 @@ if (!isset($_SESSION["name"])) {
                   </div>
                   <div class="picture-collage-item">
                     <a class="picture-collage-item-overlay" href="#">
-                      <p class="picture-collage-item-overlay-text">+19</p>
+                      <p class="picture-collage-item-overlay-text">+3</p>
                     </a>
                     <div class="photo-preview">
                       <figure class="photo-preview-image liquid">
@@ -1605,7 +1605,7 @@ if (!isset($_SESSION["name"])) {
                     </div>
                   </div>
                 </a>
-                <div class="user-status-title medium"><a class="bold" href="#">Kanika Bisht</a> replied to the discussion <a class="bold" href="forums-discussion.html">In your opinion, who has the best Cosplay?</a> in the forum
+                <div class="user-status-title medium"><a class="bold" href="#">Kanika Bisht</a> replied to the discussion <a class="bold" href="forums-discussion.html">
                   <a class="user-avatar micro no-stats" href="club-timeline.php">
                     <div class="user-avatar-border">
                       <div class="hexagon-22-24"></div>
@@ -1614,7 +1614,7 @@ if (!isset($_SESSION["name"])) {
                       <div class="hexagon-image-18-20" data-src="img/avatar/24.jpg"></div>
                     </div>
                   </a>
-                  <a class="bold" href="club-timeline.php">Virtual Reality Club</a>
+                  <a class="bold" href="club-timeline.php"></a>
                 </div>
                 <p class="user-status-text small">42 minutes ago</p>
               </div>
@@ -1622,7 +1622,7 @@ if (!isset($_SESSION["name"])) {
                 <svg class="quote-box-icon icon-quote">
                   <use xlink:href="#svg-quote"></use>
                 </svg>
-                <p class="quote-box-text">I've been cosplaying for 9 years now and I've never seen a more perfect cosplay like the Samurai Robot one from Rosie Sakura.</p>
+                <p class="quote-box-text">"Virtual reality is like dreaming with your eyes open." - Brendan Iribe</p>
               </blockquote>
               <div class="content-actions">
                 <div class="content-action">
@@ -1811,10 +1811,10 @@ if (!isset($_SESSION["name"])) {
                 <p class="user-status-title medium"><a class="bold" href="#">Pankaj </a> uploaded a <span class="bold">video</span></p>
                 <p class="user-status-text small">1 hour ago</p>
               </div>
-              <p class="widget-box-status-text">Here's a video I made of all the awesome CosplayWonder 2018!</p>
+              <p class="widget-box-status-text">Unity Unleashed: Master Game Development in One Epic Session!</p>
             </div>
             <div class="iframe-wrap">
-              <iframe src="https://www.youtube.com/embed/eVjwc1H7r74?start=43" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/mUi5FOUohAI?si=bhzmxQ_x12PLH1MW?start=43" allowfullscreen></iframe>
             </div>
             <div class="widget-box-status-content">
               <div class="content-actions">
@@ -2001,10 +2001,10 @@ if (!isset($_SESSION["name"])) {
                     </div>
                   </div>
                 </a>
-                <p class="user-status-title medium"><a class="bold" href="#">Bearded Wonder</a></p>
+                <p class="user-status-title medium"><a class="bold" href="#">Vinayak Singh</a></p>
                 <p class="user-status-text small">39 minutes ago</p>
               </div>
-              <p class="widget-box-status-text">Sorry everyone, but from now on, I will only be able to edit and upload one design tutorial per month. This happens because I'm having a lot on my plate right now and recording and editing the tutorials requiere a lot of attention.</p>
+              <p class="widget-box-status-text">VR Club is all about experiencing the extraordinary. Step into immersive virtual worlds, where your senses are awakened, and your imagination knows no bounds. Whether you're a seasoned VR enthusiast or a complete newbie, we welcome everyone to join the journey.</p>
               <div class="content-actions">
                 <div class="content-action">
                   <div class="meta-line">
