@@ -15432,7 +15432,7 @@ figure > img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-      justify-content: space-between;
+  justify-content: space-evenly !important;
 }
 
 /*-----------------------------

@@ -649,8 +649,8 @@ if (!isset($_SESSION["name"])) {
               <div class="hexagon-image-100-110" data-src="img/avatar/24.jpg"></div>
             </div>
           </a>
-          <p class="user-short-description-title"><a href="club-timeline.php">Cosplayers of the World</a></p>
-          <p class="user-short-description-text">All cosplayers welcome!</p>
+          <p class="user-short-description-title"><a href="club-timeline.php">Virtual Reality Club</a></p>
+          <p class="user-short-description-text">VIBRANT VIRTUAL REALITY EXPERIENCE</p>
         </div>
         <div class="user-stats">
           <div class="user-stat big">
@@ -768,9 +768,9 @@ if (!isset($_SESSION["name"])) {
               <p class="date-sticker-day">26</p>
               <p class="date-sticker-month">Aug</p>
             </div>
-            <p class="event-preview-title popup-event-information-trigger">CosWorld 2019 After Party</p>
+            <p class="event-preview-title popup-event-information-trigger">Dance Event</p>
             <p class="event-preview-timestamp"><span class="bold">11:00</span> PM</p>
-            <p class="event-preview-text">Join us at the CosWorld after party! We'll be eating, drinking and
+            <p class="event-preview-text">Join us at the Dance EVent after party! We'll be eating, drinking and
               having a great time exchanging experiences...</p>
           </div>
           <div class="event-preview-info-bottom">
@@ -778,7 +778,7 @@ if (!isset($_SESSION["name"])) {
               <svg class="decorated-text-icon icon-pin">
                 <use xlink:href="#svg-pin"></use>
               </svg>
-              <p class="decorated-text-content">CosWorld Arena</p>
+              <p class="decorated-text-content">Clock Tower</p>
             </div>
             <div class="meta-line">
               <div class="meta-line-list user-avatar-list">
@@ -839,7 +839,7 @@ if (!isset($_SESSION["name"])) {
               <p class="date-sticker-day">31</p>
               <p class="date-sticker-month">Oct</p>
             </div>
-            <p class="event-preview-title popup-event-information-trigger">USA Halloween Meetup 2019</p>
+            <p class="event-preview-title popup-event-information-trigger">VIT Halloween Meetup 2023</p>
             <p class="event-preview-timestamp"><span class="bold">12:30</span> PM</p>
             <p class="event-preview-text">Let's celebrate Halloween together with our best cosplays! Come and
               bring your friends!</p>
@@ -849,7 +849,7 @@ if (!isset($_SESSION["name"])) {
               <svg class="decorated-text-icon icon-pin">
                 <use xlink:href="#svg-pin"></use>
               </svg>
-              <p class="decorated-text-content">Elm Street Park</p>
+              <p class="decorated-text-content">AB-1 Portico</p>
             </div>
             <div class="meta-line">
               <div class="meta-line-list user-avatar-list">
@@ -912,14 +912,14 @@ if (!isset($_SESSION["name"])) {
       <img src="img/cover/33.jpg" alt="cover-33">
     </figure>
     <div class="popup-event-info">
-      <p class="popup-event-title">CosWorld 2019 After Party</p>
+      <p class="popup-event-title">Dance Festival</p>
       <div class="decorated-feature-list">
         <div class="decorated-feature">
           <svg class="decorated-feature-icon icon-events">
             <use xlink:href="#svg-events"></use>
           </svg>
           <div class="decorated-feature-info">
-            <p class="decorated-feature-title">Sunday, August 26th - 2019</p>
+            <p class="decorated-feature-title">Sunday, August 26th - 2023</p>
             <p class="decorated-feature-text">8:30 AM</p>
           </div>
         </div>
@@ -928,8 +928,8 @@ if (!isset($_SESSION["name"])) {
             <use xlink:href="#svg-pin"></use>
           </svg>
           <div class="decorated-feature-info">
-            <p class="decorated-feature-title">CosWorld Arena</p>
-            <p class="decorated-feature-text">Alchemists Avenue 310 - NY 10001 New York - USA</p>
+            <p class="decorated-feature-title">Clock Tower</p>
+            <p class="decorated-feature-text"> VIT Chennai - India</p>
           </div>
         </div>
         <div class="decorated-feature">

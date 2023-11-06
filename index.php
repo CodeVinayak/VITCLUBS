@@ -92,7 +92,10 @@ session_start();
               _alert("Invalid Credentials!");
             }
             if (mysqli_num_rows($result) > 0) {
-              $_SESSION['name'] = $name;
+              $result = mysqli_query($conn, $sql);
+              $row=mysqli_fetch_assoc($result);
+              $_SESSION['name'] = $row['name'];
+              $_SESSION['m_id'] = $name;
               _redirect("home.php");
             } else {
               _alert("Failed");

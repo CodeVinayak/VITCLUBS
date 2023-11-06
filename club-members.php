@@ -544,8 +544,8 @@ if (!isset($_SESSION["name"])) {
               <div class="hexagon-image-100-110" data-src="img/avatar/24.jpg"></div>
             </div>
           </a>
-          <p class="user-short-description-title"><a href="club-timeline.php">Cosplayers of the World</a></p>
-          <p class="user-short-description-text">All cosplayers welcome!</p>
+          <p class="user-short-description-title"><a href="club-timeline.php">Virtual Reality Club</a></p>
+          <p class="user-short-description-text">VIBRANT VIRTUAL REALITY EXPERIENCE</p>
         </div>
         <div class="user-stats">
           <div class="user-stat big">
@@ -649,7 +649,7 @@ if (!isset($_SESSION["name"])) {
     <section class="section">
       <div class="section-header">
         <div class="section-header-info">
-          <p class="section-pretitle">Browse Group</p>
+          <p class="section-pretitle">Browse Club</p>
           <h2 class="section-title">Members <span class="highlighted secondary">82</span></h2>
         </div>
       </div>

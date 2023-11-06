@@ -4,6 +4,8 @@ session_start();
 if (!isset($_SESSION["name"])) {
   _redirect("../");
 }
+$uname = $_SESSION['name'];
+$m_id = $_SESSION['m_id'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -112,7 +114,8 @@ if (!isset($_SESSION["name"])) {
           <p class="user-avatar-badge-text">21</p>
         </div>
       </a>
-      <p class="user-short-description-title"><a href="#">Marina Valentine</a></p>
+      <p class="user-short-description-title"><a href="#"><?php echo $uname; ?></a></p>
+      <p class="user-short-description-title"><a href="#"><?php echo $m_id; ?></a></p>
     </div>
     <ul class="menu">
       <li class="menu-item">

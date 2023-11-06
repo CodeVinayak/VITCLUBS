@@ -1,10 +1,14 @@
 <?php
+include("php/connection.php");
 include("php/jsfun.php");
+include("php/phpfun.php");
+include("php/webpcon.php");
 session_start();
 if (!isset($_SESSION["name"])) {
   _redirect("../");
 }
 $uname = $_SESSION['name'];
+$m_id = $_SESSION['m_id'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -114,6 +118,7 @@ $uname = $_SESSION['name'];
         </div>
       </a>
       <p class="user-short-description-title"><a href="#"><?php echo $uname; ?></a></p>
+      <p class="user-short-description-title"><a href="#"><?php echo $m_id; ?></a></p>
     </div>
     <ul class="menu">
       <li class="menu-item active">
@@ -571,7 +576,7 @@ $uname = $_SESSION['name'];
         </figure>
         <div class="user-preview-info">
           <div class="tag-sticker">
-            <div class="hexagon-image-30-32" data-src="img/avatar/technical.jpg"></div>
+            <div class="hexagon-image-30-32" data-src="img/avatar/t.png"></div>
           </div>
           <div class="user-short-description">
             <a class="user-short-description-avatar user-avatar medium no-stats" href="vr-club-timeline.php">
@@ -665,6 +670,114 @@ $uname = $_SESSION['name'];
           </div>
         </div>
       </div>
+
+      <?php
+      $sql = "SELECT * FROM `clubs`";
+      $result = mysqli_query($conn, $sql);
+      while ($row = mysqli_fetch_array($result)) {
+      echo '
+      <div class="user-preview">
+        <figure class="user-preview-cover liquid">
+          <img src="images/clubs/background/'.$row["b_img"].'" alt="cover-29">
+        </figure>
+        <div class="user-preview-info">
+          <div class="tag-sticker">
+            <div class="hexagon-image-30-32" data-src="img/avatar/'.$row["typ"].'.png"></div>
+          </div>
+          <div class="user-short-description">
+            <a class="user-short-description-avatar user-avatar medium no-stats" href="vr-club-timeline.php">
+              <div class="user-avatar-border">
+                <div class="hexagon-120-130"></div>
+              </div>
+              <div class="user-avatar-content">
+                <div class="hexagon-image-100-110" data-src="images/clubs/main/'.$row["m_img"].'"></div>
+              </div>
+            </a>
+            <p class="user-short-description-title"><a href="vr-club-timeline.php">'.$row["name"].'</a></p>
+            <p class="user-short-description-text">'.$row["intro"].'</p>
+          </div>
+          <div class="user-stats">
+            <div class="user-stat">
+              <p class="user-stat-title">139</p>
+              <p class="user-stat-text">members</p>
+            </div>
+            <div class="user-stat">
+              <p class="user-stat-title">105</p>
+              <p class="user-stat-text">posts</p>
+            </div>
+            <div class="user-stat">
+              <p class="user-stat-title">7.3k</p>
+              <p class="user-stat-text">visits</p>
+            </div>
+          </div>
+          <div class="user-avatar-list medium reverse centered">
+            <div class="user-avatar smaller no-stats">
+              <div class="user-avatar-border">
+                <div class="hexagon-34-36"></div>
+              </div>
+              <div class="user-avatar-content">
+                <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
+              </div>
+            </div>
+            <div class="user-avatar smaller no-stats">
+              <div class="user-avatar-border">
+                <div class="hexagon-34-36"></div>
+              </div>
+              <div class="user-avatar-content">
+                <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
+              </div>
+            </div>
+            <div class="user-avatar smaller no-stats">
+              <div class="user-avatar-border">
+                <div class="hexagon-34-36"></div>
+              </div>
+              <div class="user-avatar-content">
+                <div class="hexagon-image-30-32" data-src="img/avatar/10.jpg"></div>
+              </div>
+            </div>
+            <div class="user-avatar smaller no-stats">
+              <div class="user-avatar-border">
+                <div class="hexagon-34-36"></div>
+              </div>
+              <div class="user-avatar-content">
+                <div class="hexagon-image-30-32" data-src="img/avatar/02.jpg"></div>
+              </div>
+            </div>
+            <div class="user-avatar smaller no-stats">
+              <div class="user-avatar-border">
+                <div class="hexagon-34-36"></div>
+              </div>
+              <div class="user-avatar-content">
+                <div class="hexagon-image-30-32" data-src="img/avatar/06.jpg"></div>
+              </div>
+            </div>
+            <a class="user-avatar smaller no-stats" href="club-members.php">
+              <div class="user-avatar-border">
+                <div class="hexagon-34-36"></div>
+              </div>
+              <div class="user-avatar-content">
+                <div class="hexagon-image-30-32" data-src="img/avatar/23.jpg"></div>
+              </div>
+              <div class="user-avatar-overlay">
+                <div class="hexagon-overlay-30-32"></div>
+              </div>
+              <div class="user-avatar-overlay-content">
+                <p class="user-avatar-overlay-content-text">+132</p>
+              </div>
+            </a>
+          </div>
+          <div class="user-preview-actions">
+            <p class="button secondary full">
+              <svg class="button-icon icon-join-group">
+                <use xlink:href="#svg-join-group"></use>
+              </svg>
+              <a href="vr-club-timeline.php" style="color: white;">View Club</a>
+            </p>
+          </div>
+        </div>
+      </div>';
+      }
+      ?>  
       <div class="user-preview">
         <figure class="user-preview-cover liquid">
           <img src="img/cover/08.jpg" alt="cover-08">

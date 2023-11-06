@@ -534,8 +534,8 @@ if (!isset($_SESSION["name"])) {
               <div class="hexagon-image-100-110" data-src="img/avatar/24.jpg"></div>
             </div>
           </a>
-          <p class="user-short-description-title"><a href="club-timeline.php">Cosplayers of the World</a></p>
-          <p class="user-short-description-text">All cosplayers welcome!</p>
+          <p class="user-short-description-title"><a href="club-timeline.php">Virtual Reality Club</a></p>
+          <p class="user-short-description-text">VIBRANT VIRTUAL REALITY EXPERIENCE</p>
         </div>
         <div class="user-stats">
           <div class="user-stat big">
@@ -712,7 +712,7 @@ if (!isset($_SESSION["name"])) {
           </div>
           <p class="widget-box-title">Group Info</p>
           <div class="widget-box-content">
-            <p class="paragraph">Hello everyone! This is a group open to all for cosplayers around the world to talk about their passion, trade tips, ask for opinions and have a great time!</p>
+            <p class="paragraph">Dive into the immersive world of virtual reality with us! Join a vibrant community of VR enthusiasts and explore limitless possibilities. Get ready to redefine reality. 🚀</p>
             <div class="information-line-list">
               <div class="information-line">
                 <p class="information-line-title">Created</p>
@@ -724,11 +724,11 @@ if (!isset($_SESSION["name"])) {
               </div>
               <div class="information-line">
                 <p class="information-line-title">Email</p>
-                <p class="information-line-text"><a href="#">info@cosworld.com</a></p>
+                <p class="information-line-text"><a href="#">info@vit.ac.in</a></p>
               </div>
               <div class="information-line">
                 <p class="information-line-title">Web</p>
-                <p class="information-line-text"><a href="#">www.cosplayworld.com</a></p>
+                <p class="information-line-text"><a href="#">https://vr-club-vitc.netlify.app/</a></p>
               </div>
             </div>
           </div>
@@ -1116,7 +1116,7 @@ if (!isset($_SESSION["name"])) {
                 <img class="video-status-image" src="img/cover/52.jpg" alt="cover-52">
                 <div class="video-status-info">
                   <p class="video-status-meta">discordapp.com</p>
-                  <p class="video-status-title"><span class="bold">Cosplayers of the World</span> on <span class="highlighted">Discord</span></p>
+                  <p class="video-status-title"><span class="bold">Virtual Reality Club</span> on <span class="highlighted">Discord</span></p>
                   <p class="video-status-text">Let's talk about everything cosplay related!.</p>
                 </div>
               </a>
@@ -1614,7 +1614,7 @@ if (!isset($_SESSION["name"])) {
                       <div class="hexagon-image-18-20" data-src="img/avatar/24.jpg"></div>
                     </div>
                   </a>
-                  <a class="bold" href="club-timeline.php">Cosplayers of the World</a>
+                  <a class="bold" href="club-timeline.php">Virtual Reality Club</a>
                 </div>
                 <p class="user-status-text small">42 minutes ago</p>
               </div>
